@@ -22,17 +22,24 @@
 // }
 .contact{
     margin: 0 auto;
-    width: 60%;
+    width: 50%;
 }
 // X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
     .contact{
-        width: 100%;
+        width: 90%;
     }
 }
+
 // Small devices (landscape phones, less than 768px)
-@media (min-width: 576px) and (max-width: 1900px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
     .contact{
-    width: 55%;
+    width: 90%;
     }
+} 
+// Medium devices (tablets, less than 992px)
+@media (min-width: 768px) and (max-width: 991.98px){ 
+    .contact{
+        width: 90%;
+        }
 }
