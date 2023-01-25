@@ -1,25 +1,37 @@
-.contact {
-    padding-bottom: 200px;
-    .title {
-        font-family: $font_family;
-        color: $primary_color; 
-    }
-    input,select {
-        font-family: $font_family;
-        font-size: 18px;
-        border-color: $secondry_color;
-    }
-    .btn {
-        background-color: $secondry_color;
-        color: $primary_color;
-        font-family: $font_family;
-    }
+// .contact {
+//     padding-bottom: 200px;
+//     .title {
+//         font-family: $font_family;
+//         color: $primary_color; 
+//     }
+//     input,select {
+//         font-family: $font_family;
+//         font-size: 18px;
+//         border-color: $secondry_color;
+//     }
+//     .btn {
+//         background-color: $secondry_color;
+//         color: $primary_color;
+//         font-family: $font_family;
+//     }
 
-    .btn:hover {
-        color: $secondry_color;
-        background-color: $primary_color;
+//     .btn:hover {
+//         color: $secondry_color;
+//         background-color: $primary_color;
+//     }
+// }
+.contact{
+    margin: 0 auto;
+}
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .contact{
+        width: 100%;
     }
 }
-.hubspot-link__container.sproket {
-    display: none !important;
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 1400px) {
+    .contact{
+    width: 60%;
+    }
 }

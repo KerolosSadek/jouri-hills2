@@ -1,0 +1,14 @@
+.contact {
+  margin: 0 auto;
+}
+
+@media (max-width: 575.98px) {
+  .contact {
+    width: 100%;
+  }
+}
+@media (max-width: 1400px) {
+  .contact {
+    width: 60%;
+  }
+}/*# sourceMappingURL=contact.css.map */
