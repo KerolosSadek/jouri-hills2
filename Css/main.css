@@ -81,31 +81,19 @@ html {
   }
 }
 .contact {
-  padding-bottom: 200px;
-}
-.contact .title {
-  font-family: "Cairo";
-  color: rgb(49, 52, 107);
-}
-.contact input, .contact select {
-  font-family: "Cairo";
-  font-size: 18px;
-  border-color: rgb(252, 155, 25);
-}
-.contact .btn {
-  background-color: rgb(252, 155, 25);
-  color: rgb(49, 52, 107);
-  font-family: "Cairo";
-}
-.contact .btn:hover {
-  color: rgb(252, 155, 25);
-  background-color: rgb(49, 52, 107);
+  margin: 0 auto;
 }
 
-.hubspot-link__container.sproket {
-  display: none !important;
+@media (max-width: 575.98px) {
+  .contact {
+    width: 100%;
+  }
 }
-
+@media (min-width: 576px) and (max-width: 1400px) {
+  .contact {
+    width: 60%;
+  }
+}
 .footer {
   box-shadow: 0 0 10px 0 rgba(150, 150, 150, 0.5);
   background-color: #f1f1f1;
