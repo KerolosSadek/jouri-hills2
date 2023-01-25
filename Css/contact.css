@@ -3,6 +3,9 @@
   width: 50%;
   margin-top: 65px;
 }
+.contact .hubspot-link__container.sproket {
+  display: none !important;
+}
 
 @media (max-width: 575.98px) {
   .contact {
