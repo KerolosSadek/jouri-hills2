@@ -100,6 +100,11 @@ html {
     width: 90%;
   }
 }
+@media (min-width: 992px) and (max-width: 1900px) {
+  .contact {
+    width: 60%;
+  }
+}
 .footer {
   box-shadow: 0 0 10px 0 rgba(150, 150, 150, 0.5);
   background-color: #f1f1f1;

@@ -43,3 +43,9 @@
         width: 90%;
         }
 }
+// Medium devices (tablets, less than 992px)
+@media (min-width: 992px) and (max-width: 1900px){ 
+    .contact{
+        width: 60%;
+        }
+}

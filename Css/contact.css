@@ -17,4 +17,9 @@
   .contact {
     width: 90%;
   }
+}
+@media (min-width: 992px) and (max-width: 1900px) {
+  .contact {
+    width: 60%;
+  }
 }/*# sourceMappingURL=contact.css.map */
