@@ -1,0 +1,22 @@
+.contact {
+    padding-bottom: 200px;
+    .title {
+        font-family: $font_family;
+        color: $primary_color; 
+    }
+    input,select {
+        font-family: $font_family;
+        font-size: 18px;
+        border-color: $secondry_color;
+    }
+    .btn {
+        background-color: $secondry_color;
+        color: $primary_color;
+        font-family: $font_family;
+    }
+
+    .btn:hover {
+        color: $secondry_color;
+        background-color: $primary_color;
+    }
+}

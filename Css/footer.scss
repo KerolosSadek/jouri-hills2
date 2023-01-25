@@ -1,0 +1,35 @@
+.footer{
+    box-shadow: 0 0 10px 0 rgb(150 150 150 / 50%);
+    background-color: #f1f1f1;
+    text-align: center;
+    font-family: $font_family;
+    
+    h5{
+        color: $primary_color;
+        font-weight: 600;
+    }
+    h4{
+        color: $secondry_color;
+    }
+    a{
+        text-decoration: none;
+        color: #FFF;
+        font-family: $font_family;
+        
+    }
+    .tel{
+        color: $primary_color;
+    }
+}
+
+// Responsive
+@media (max-width: 575.98px) { 
+    .footer{
+        h5{
+            font-size: 12px;
+        }
+        h4{
+            font-size: 14px;
+        } 
+    }
+}

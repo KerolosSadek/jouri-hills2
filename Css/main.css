@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav {
+  box-shadow: 0 0 10px 0 rgba(150, 150, 150, 0.5);
+}
+
+.navbar .navbar-brand {
+  color: rgb(49, 52, 107);
+  font-weight: bold;
+  font-size: 25;
+  font-family: "Cairo";
+  max-width: 16%;
+}
+.navbar .navbar-brand img {
+  max-width: 30%;
+  background-color: rgb(49, 52, 107);
+  padding: 0px 0px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+.navbar .nav-item {
+  color: rgb(49, 52, 107);
+  font-weight: bold;
+  font-size: 20px;
+}
+.navbar .nav-item :hover {
+  border-bottom: 1px solid rgb(252, 155, 25);
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    max-width: 35% !important;
+  }
+  .banner img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 400px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 991.89px) {
+  .navbar-brand {
+    max-width: 37% !important;
+  }
+}
+.about {
+  font-family: "Cairo";
+}
+.about h1 {
+  color: rgb(49, 52, 107);
+}
+.about p {
+  font-size: 18px;
+  color: rgb(252, 155, 25);
+}
+
+.features li,
+.features h3 {
+  font-family: "Cairo";
+}
+
+.allFeatures h1,
+.allFeatures h3 {
+  font-family: "Cairo";
+  color: rgb(49, 52, 107);
+}
+.allFeatures h3 {
+  font-size: 22px;
+}
+
+@media (max-width: 575.98px) {
+  .allFeatures h3 {
+    font-size: 18px;
+  }
+}
+.contact {
+  padding-bottom: 200px;
+}
+.contact .title {
+  font-family: "Cairo";
+  color: rgb(49, 52, 107);
+}
+.contact input, .contact select {
+  font-family: "Cairo";
+  font-size: 18px;
+  border-color: rgb(252, 155, 25);
+}
+.contact .btn {
+  background-color: rgb(252, 155, 25);
+  color: rgb(49, 52, 107);
+  font-family: "Cairo";
+}
+.contact .btn:hover {
+  color: rgb(252, 155, 25);
+  background-color: rgb(49, 52, 107);
+}
+
+.footer {
+  box-shadow: 0 0 10px 0 rgba(150, 150, 150, 0.5);
+  background-color: #f1f1f1;
+  text-align: center;
+  font-family: "Cairo";
+}
+.footer h5 {
+  color: rgb(49, 52, 107);
+  font-weight: 600;
+}
+.footer h4 {
+  color: rgb(252, 155, 25);
+}
+.footer a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: "Cairo";
+}
+.footer .tel {
+  color: rgb(49, 52, 107);
+}
+
+@media (max-width: 575.98px) {
+  .footer h5 {
+    font-size: 12px;
+  }
+  .footer h4 {
+    font-size: 14px;
+  }
+}
+.form-popup {
+  box-shadow: 0 0 10px 0 rgba(150, 150, 150, 0.5);
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  z-index: 1000000;
+  opacity: 0.93;
+  font-family: "Cairo";
+}
+.form-popup .title {
+  font-family: "Cairo";
+  color: rgb(49, 52, 107);
+}
+.form-popup input,
+.form-popup select {
+  font-family: "Cairo";
+  font-size: 18px;
+  border-color: rgb(252, 155, 25);
+}
+.form-popup .form-container {
+  padding: 10px;
+  background-color: white;
+}
+.form-popup .form-container .btn {
+  background-color: rgb(49, 52, 107);
+  color: rgb(252, 155, 25);
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+.form-popup .form-container .cancel {
+  background-color: rgb(252, 155, 25);
+  color: rgb(49, 52, 107);
+}
+.form-popup .form-container .btn:hover, .form-popup .form-container .open-button:hover {
+  opacity: 1;
+}
+
+@media (max-width: 575.98px) {
+  .form-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    z-index: 1000000;
+    opacity: 0.93;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .form-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    z-index: 1000000;
+    opacity: 0.93;
+  }
+}
+@media (min-width: 768px) and (max-width: 849.98px) {
+  .form-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    z-index: 1000000;
+    opacity: 0.93;
+  }
+}
+@media (min-width: 850px) and (max-width: 990.98px) {
+  .form-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    z-index: 1000000;
+    opacity: 0.93;
+  }
+}
+@media (min-width: 991px) and (max-width: 1198.98px) {
+  .form-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    z-index: 1000000;
+    opacity: 0.93;
+  }
+}/*# sourceMappingURL=main.css.map */

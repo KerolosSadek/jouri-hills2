@@ -1,0 +1,47 @@
+.nav{
+    box-shadow: 0 0 10px 0 rgb(150 150 150 / 50%);
+}
+.navbar {
+    .navbar-brand {
+        color: $primary_color;
+        font-weight: bold;
+        font-size: 25;
+        font-family: $font_family;
+        max-width: 16%;
+        img{
+            max-width: 30%;
+            background-color: $primary_color;
+            padding: 0px 0px;
+            border-radius: 50%;
+            margin-left: 15px;
+        }
+    }
+    
+    .nav-item {
+        color: $primary_color;
+        font-weight: bold;
+        font-size: 20px;
+
+        :hover {
+            border-bottom: 1px solid $secondry_color;
+        }
+    }
+}
+@media (max-width: 575.98px) {
+    .navbar-brand{
+        max-width: 35% !important;
+    }
+    .banner{
+        img{
+            object-fit: cover;
+            height: 400px;
+            max-width: 100%;
+        }
+    }
+    
+}
+@media (min-width: 576px) and (max-width: 991.89px) {
+    .navbar-brand{
+        max-width: 37% !important;
+    }
+}

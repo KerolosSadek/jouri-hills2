@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+// Main Variables
+$primary_color: rgb(49, 52, 107);
+$secondry_color:rgb(252, 155, 25);
+$font_family:'Cairo';
+
+// All Components
+@import "navbar";
+@import "about";
+@import "features";
+@import "allFeatures";
+@import "contact";
+@import "footer";
+@import "popupForm";
