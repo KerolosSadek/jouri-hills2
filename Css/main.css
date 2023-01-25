@@ -102,6 +102,10 @@ html {
   background-color: rgb(49, 52, 107);
 }
 
+.sproket {
+  display: none !important;
+}
+
 .footer {
   box-shadow: 0 0 10px 0 rgba(150, 150, 150, 0.5);
   background-color: #f1f1f1;
