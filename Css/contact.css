@@ -1,6 +1,7 @@
 .contact {
   margin: 0 auto;
   width: 50%;
+  margin-top: 50px;
 }
 
 @media (max-width: 575.98px) {
