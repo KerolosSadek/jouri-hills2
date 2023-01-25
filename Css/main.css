@@ -84,8 +84,10 @@ html {
   margin: 0 auto;
   width: 50%;
   margin-top: 65px;
+  color: rgb(49, 52, 107);
 }
-.contact .hubspot-link__container.sproket {
+
+.hubspot-link__container.sproket {
   display: none !important;
 }
 
@@ -243,34 +245,3 @@ html {
     opacity: 0.93;
   }
 }/*# sourceMappingURL=main.css.map */
-
-.contact {
-  margin: 0 auto;
-  width: 50%;
-  margin-top: 65px;
-}
-
-.hubspot-link__container.sproket {
-  display: none !important;
-}
-
-@media (max-width: 575.98px) {
-  .contact {
-    width: 90%;
-  }
-}
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .contact {
-    width: 90%;
-  }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .contact {
-    width: 90%;
-  }
-}
-@media (min-width: 992px) and (max-width: 1600px) {
-  .contact {
-    width: 38%;
-  }
-}/*# sourceMappingURL=contact.css.map */
