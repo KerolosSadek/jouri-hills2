@@ -5,6 +5,9 @@
 html {
     scroll-behavior: smooth;
 }
+.hs-tools-menu {
+    display: none !important;
+}
 
 // Main Variables
 $primary_color: rgb(49, 52, 107);

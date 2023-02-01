@@ -6,8 +6,8 @@ function closeForm() {
 }
 window.setTimeout(openForm, 4000);
 
-function hide(){
-  document.getElementsByClassName(sproket).style.display = "none"
-}
+// function hide(){
+//   document.getElementsByClassName(sproket).style.display = "none"
+// }
 
-window.setTimeout(hide, 10000)
+// window.setTimeout(hide, 10000)
