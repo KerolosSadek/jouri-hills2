@@ -6,7 +6,7 @@
 html {
   scroll-behavior: smooth;
 }
-.hs-tools-menu {
+div.hubspot-link__container {
   display: none !important;
 }
 .nav {
