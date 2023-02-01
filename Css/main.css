@@ -81,10 +81,21 @@ html {
   }
 }
 .contact {
+  padding-bottom: 200px;
+}
+.contact .title {
+  font-family: "Cairo";
+  color: rgb(49, 52, 107);
+}
+.contact .desc {
+  font-family: "Cairo";
+  color: rgb(252, 155, 25);
+}
+
+.contact {
   margin: 0 auto;
   width: 50%;
   margin-top: 65px;
-  color: rgb(49, 52, 107);
 }
 
 .hubspot-link__container.sproket {
@@ -156,6 +167,10 @@ html {
 .form-popup .title {
   font-family: "Cairo";
   color: rgb(49, 52, 107);
+}
+.form-popup .desc {
+  font-family: "Cairo";
+  color: rgb(252, 155, 25);
 }
 .form-popup input,
 .form-popup select {

@@ -5,3 +5,7 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 window.setTimeout(openForm, 4000);
+
+setTimeout(() => {
+  document.getElementsByClassName(hubspot-link__container.sproket).style.display = "none"
+}, 10000);
