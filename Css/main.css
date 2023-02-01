@@ -7,35 +7,35 @@ html {
   scroll-behavior: smooth;
 }
 div.hubspot-link__container {
-  display: none;
+  display: none !important;
 }
 
 span.hubspot-link-text {
-  display: none;
+  display: none !important;
 }
 
 div.hubspot-link__container.sproket {
-  display: none;
+  display: none !important;
 }
 
 a.hubspot-link {
-  display: none;
+  display: none !important;
 }
 
 a.hubspot-link:hover {
-  display: none;
+  display: none !important;
 }
 
 a.hubspot-link:hover .hubspot-link-text {
-  display: none;
+  display: none !important;
 }
 
 img.hubspot-link__icon {
-  display: none;
+  display: none !important;
 }
 
 div.hubspot-link__container.sproket .hubspot-link__icon {
-  display: none;
+  display: none !important;
 }
 .nav {
   box-shadow: 0 0 10px 0 rgba(150, 150, 150, 0.5);
