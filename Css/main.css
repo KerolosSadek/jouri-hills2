@@ -7,7 +7,35 @@ html {
   scroll-behavior: smooth;
 }
 div.hubspot-link__container {
-  display: none !important;
+  display: none;
+}
+
+span.hubspot-link-text {
+  display: none;
+}
+
+div.hubspot-link__container.sproket {
+  display: none;
+}
+
+a.hubspot-link {
+  display: none;
+}
+
+a.hubspot-link:hover {
+  display: none;
+}
+
+a.hubspot-link:hover .hubspot-link-text {
+  display: none;
+}
+
+img.hubspot-link__icon {
+  display: none;
+}
+
+div.hubspot-link__container.sproket .hubspot-link__icon {
+  display: none;
 }
 .nav {
   box-shadow: 0 0 10px 0 rgba(150, 150, 150, 0.5);
