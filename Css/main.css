@@ -6,7 +6,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+.hs-tools-menu {
+  display: none !important;
+}
 .nav {
   box-shadow: 0 0 10px 0 rgba(150, 150, 150, 0.5);
 }
