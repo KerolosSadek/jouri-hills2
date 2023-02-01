@@ -10,4 +10,4 @@ function hide(){
   document.getElementsByClassName(sproket).style.display = "none"
 }
 
-setTimeout(hide, 10000)
+window.setTimeout(hide, 10000)
